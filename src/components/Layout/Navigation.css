@@ -1,0 +1,22 @@
+.LayoutMainContainer > .dcl.tabs {
+  background: var(--background);
+}
+
+.LayoutMainContainer > .dcl.tabs .dcl.tab {
+  color: var(--text);
+}
+
+.LayoutMainContainer > .dcl.tabs .ui.container {
+  display: flex;
+}
+
+.LayoutMainContainer > .dcl.tabs .SubmitButton,
+.LayoutMainContainer > .dcl.tabs .SearchInput {
+  margin: 0;
+  margin-left: 1rem;
+}
+
+
+.LayoutMainContainer > .dcl.tabs .SearchInput {
+  min-width: 300px;
+}

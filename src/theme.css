@@ -1,0 +1,26 @@
+body {
+  background: var(--background);
+}
+
+.dcl.navbar.LayoutNavbarContainer {
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+
+.dcl.navbar.LayoutNavbarContainer.initial {
+  background-color: var(--background);
+}
+
+.dcl.navbar .dcl.logo{
+  background-image: url(./images/metaearth-logo.jpeg) !important;
+}
+
+.ui.container > .SignIn {
+  position: relative;
+}
+
+@keyframes loading {
+  to {
+    background-position-x: -200%;
+  }
+}
